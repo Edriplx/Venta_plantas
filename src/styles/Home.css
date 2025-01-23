@@ -1,0 +1,60 @@
+/* src/styles/Home.css */
+
+.home {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('../img/fondo_img.jpg') no-repeat center center/cover;  /* Ruta de la imagen de fondo */
+  background-attachment: fixed;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.home-background {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+  max-width: 500px;
+  width: 100%;
+}
+
+.home-title {
+  font-size: 3.5rem;
+  color: #2e7d32;
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.home-description {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  color: #555;
+  line-height: 1.6;
+  font-family: 'Arial', sans-serif;
+}
+
+.home-button {
+  font-size: 1.2rem;
+  padding: 12px 25px;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.home-button:hover {
+  background-color: #1b5e20;
+  transform: scale(1.1);
+}
+
+.home-button:focus {
+  outline: none;
+}
