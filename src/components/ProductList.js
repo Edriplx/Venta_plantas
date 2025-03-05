@@ -10,12 +10,12 @@ const ProductList = () => {
 
   // Lista de plantas
   const plants = [
-    { id: 1, name: 'Tomate', price: 15, category: 'Follaje', image: '/img/tomate_img.png' },
-    { id: 2, name: 'Aguacate', price: 25, category: 'Floración', image: '/img/aguacate_img.png' },
-    { id: 3, name: 'Cactus', price: 10, category: 'Suculentas', image: '/img/cactus_img.png' },
-    { id: 4, name: 'Rosas', price: 12, category: 'Follaje', image: '/img/rosas_img.png' },
-    { id: 5, name: 'Claveles', price: 18, category: 'Follaje', image: '/img/claveles_img.png' },
-    { id: 6, name: 'Aloe Vera', price: 14, category: 'Suculentas', image: '/img/aloe_img.png' },
+    { id: 1, name: 'Tomate', price: 15, category: 'Follaje', image: process.env.PUBLIC_URL + '/img/tomate_img.png' },
+    { id: 2, name: 'Aguacate', price: 25, category: 'Floración', image: process.env.PUBLIC_URL + '/img/aguacate_img.png' },
+    { id: 3, name: 'Cactus', price: 10, category: 'Suculentas', image: process.env.PUBLIC_URL + '/img/cactus_img.png' },
+    { id: 4, name: 'Rosas', price: 12, category: 'Follaje', image: process.env.PUBLIC_URL + '/img/rosas_img.png' },
+    { id: 5, name: 'Claveles', price: 18, category: 'Follaje', image: process.env.PUBLIC_URL + '/img/claveles_img.png' },
+    { id: 6, name: 'Aloe Vera', price: 14, category: 'Suculentas', image: process.env.PUBLIC_URL + '/img/aloe_img.png' },
   ];
 
   const handleAddToCart = (plant) => {
